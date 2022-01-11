@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const dbConnect = () => {
-    const dbName = 'cars';
+    const dbName = 'garage_db';
     const dbUrl = `mongodb://localhost:27017/${dbName}`;
 
     try {

@@ -5,6 +5,7 @@ const { dbConnect } = require('./config/db');
 
 const carsRoutes = require('./routes/cars');
 
+// mongoose (connection to db)
 dbConnect();
 
 app.use(express.json());

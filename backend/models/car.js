@@ -9,9 +9,6 @@ const carSchema = new mongoose.Schema({
     },
     year: {
         type: Number
-    },
-    createdAt: {
-        type: Date
     }
 }, {
     timestamps: true
